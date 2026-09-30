@@ -1,43 +1,20 @@
+<!DOCTYPE html>
 <html lang="en">
-  <head>
-    <title>Welcome to Kaar</title>
-    <style>
-         .web { color: #2563eb; }
-         .mobile { color: #dc2626; }
-         .cloud { color: #a369a1; }
-         .consult { color: #059669; }
-         .fruit-list {
-            display: flex;
-            gap: 20px;
-            list-style: none;
-            padding: 0;
-          }
-          .fruit-item {
-            cursor: pointer;
-            padding: 10px;
-            border: 2px solid green;
-            border-radius: 8px;
-          }
-          .fruit-item.active {
-            border-color: darkred;
-            background-color: #ffebee;
-          }
-    </style>
-  </head>
-  <body>
-    <h1>Welcome to kaar</h1>
-    <h3>Our Services</h3>
-    <div class="fruit-list">
-      <div class="fruit-item" onclick="handleClick(this)"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRO5hAv7MWr-MFsMLesjAUN9WZqJb-BtUVZPdtpMMZvaw&s=10" width="250" height="150"></img>Banana</div>
-      <div class="fruit-item" onclick="handleClick(this)"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQnP-Q-nwOkjrljj5cD1inQk9xHMCW_kM6GduaaThOPpw&s=10" width="250" height="150"></img>Mango</div>
-      <div class="fruit-item" onclick="handleClick(this)"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSZmxy-moZPlJKdIfUL3KDXi9yKiwzXIGtLC_AnKQzGVQ&s=10" width="250" height="150"></img>Pomegranate</div>
- 
-    </div>
-    <script>
-      // Inline click event function passed via HTML attribute
-      function handleClick(element) {
-          element.classList.toggle('active');
-      }
-    </script>
-  </body>  
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Welcome to Kaar</title>
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="styles.css">
+  
+</head>
+<body>
+  
+
+  <div class="top-bar">Fruit Shop<i class="fa fa-shopping-cart"></i></div>
+
+  <div class="fruit-list" id="fruit-container"></div>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+  <script src="script.js" defer></script>
+</body>
 </html>
