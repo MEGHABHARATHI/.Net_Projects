@@ -1,3 +1,23 @@
+$(document).ready(function() {$.ajax({
+        url: "https://dummyjson.com/todos/10",
+        type: "GET",
+        dataType: "json",
+        success: function(response) {
+            console.log("API Response:", response);
+            console.log("Todo:", response.todo);
+            console.log("Completed:", response.completed);
+
+           
+        },
+        error: function(xhr, status, error) {
+            console.error("Error fetching data:", error);
+        }
+    });
+});
+ 
+ 
+
+
 // Inline click event function passed via HTML attribute
       
 
@@ -18,13 +38,39 @@
 
           //div.setAttribute('onclick', 'handleClick(this)');
  
-          div.innerHTML = `<img src="${my_fav_fruit.img}" alt="${my_fav_fruit.name}"  width="250" height="150"> ${my_fav_fruit.name}<b>Rs.${my_fav_fruit.price}</b> <button class="add-to-cart">Add to Cart</button>`;
+          div.innerHTML = `<img src="${my_fav_fruit.img}" alt="${my_fav_fruit.name}"  width="250" height="150"> ${my_fav_fruit.name}<b>Rs.<div class='price'>${my_fav_fruit.price} </div>per kg</b> <button class="add-to-cart">Add to Cart</button>`;
           container.appendChild(div);
        });
+        $('#disc_btn').button({disabled:true});
 
-       $('#fruit-container').on('click', '.add-to-cart', function() {
-        console.log("Add to Cart button clicked");
+       var cart_items = [];
+       $('#fruit-container').on('click', '.add-to-cart', 
+        function() {
+        console.log("Add to Cart button clicked...");
+        let item =$(this).parent();
+        cart_items.push(item);
+        
         $(this).parent().toggleClass('active');
+        $('#cart-badge').text(cart_items.length);
 
-      });
+        });
+
+        $('#disc_btn').click(() => {
+          var disc_val= $('#disc_val').val();
+          console.log(`Discount button clicked with value: ${disc_val}`);
+          $('#disc_val').val('');
+
+          $('.fruit-item.active').each((index, element) => {
+            var text = $(element).text();
+            var price=$(element).find('.price').text();
+            console.log(`index: ${index}, element: ${element}`);
+
+            var disc_price = price *(100-disc_val)/100;
+            $(element).find('.price').text(disc_price);
+            $(element).find('.price').hide().slideDown(800);
+          });
+
+
+        });
+
     });

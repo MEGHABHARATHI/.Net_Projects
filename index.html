@@ -5,16 +5,29 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Welcome to Kaar</title>
    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+   <link rel="stylesheet"
+      href="https://code.jquery.com/ui/1.14.2/themes/base/jquery-ui.css">
   <link rel="stylesheet" href="styles.css">
   
 </head>
 <body>
   
 
-  <div class="top-bar">Fruit Shop<i class="fa fa-shopping-cart"></i></div>
+  <div class="top-bar">Fruit Shop<i class="fa fa-shopping-cart"><span id="cart-badge">0</span></i></div>
 
   <div class="fruit-list" id="fruit-container"></div>
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
-  <script src="script.js" defer></script>
+
+  <div class="disc_section">
+    <label>Coupon code:</label>
+    <input type="text" id="disc_val" placeholder="Enter coupon code">
+    <button id="disc_btn">Apply Coupon</button>
+  </div>
+
+
+
+
+  <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+  <script src="https://code.jquery.com/ui/1.14.2/jquery-ui.min.js"></script>
+  <script src="script.js" ></script>
 </body>
 </html>
