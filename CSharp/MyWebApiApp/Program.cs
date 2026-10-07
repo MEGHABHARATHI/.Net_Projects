@@ -1,4 +1,11 @@
+using Serilog;
+
 var builder = WebApplication.CreateBuilder(args);
+// Configure Serilog
+Log.Logger = new LoggerConfiguration()
+    .WriteTo.Console()
+    .WriteTo.File("logs/mywebapiapp.log", rollingInterval: RollingInterval.Day)
+    .CreateLogger();
 
 builder.Services.AddOpenApi();
 builder.Services.AddControllers();
@@ -20,7 +27,3 @@ app.MapGet("/welcome", () =>
 
 app.Run();
 
-record WeatherForecast(DateOnly Date, int TemperatureC, string? Summary)
-{
-    public int TemperatureF => 32 + (int)(TemperatureC / 0.5556);
-}

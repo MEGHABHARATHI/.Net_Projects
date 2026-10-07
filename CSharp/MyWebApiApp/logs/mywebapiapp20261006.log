@@ -1,0 +1,18 @@
+2026-10-06 14:29:58.594 +05:30 [INF] GetById API called with ID: 5
+2026-10-06 14:29:58.845 +05:30 [INF] Searching for subject with ID: 5
+2026-10-06 14:30:00.784 +05:30 [INF] EF SQL:--info: 06-10-2026 14:30:00.783 RelationalEventId.CommandExecuted[20101] (Microsoft.EntityFrameworkCore.Database.Command) 
+      Executed DbCommand (26ms) [Parameters=[@p='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+      SELECT "m"."id", "m"."Subject", "m"."mark"
+      FROM "MarkDetails" AS "m"
+      WHERE "m"."id" = @p
+      LIMIT 1
+2026-10-06 14:30:00.815 +05:30 [WRN] Subject not found. ID: 5
+2026-10-06 14:30:10.203 +05:30 [INF] GetById API called with ID: 2
+2026-10-06 14:30:10.212 +05:30 [INF] Searching for subject with ID: 2
+2026-10-06 14:30:10.285 +05:30 [INF] EF SQL:--info: 06-10-2026 14:30:10.282 RelationalEventId.CommandExecuted[20101] (Microsoft.EntityFrameworkCore.Database.Command) 
+      Executed DbCommand (1ms) [Parameters=[@p='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+      SELECT "m"."id", "m"."Subject", "m"."mark"
+      FROM "MarkDetails" AS "m"
+      WHERE "m"."id" = @p
+      LIMIT 1
+2026-10-06 14:30:10.412 +05:30 [INF] Subject found successfully. ID: 2
