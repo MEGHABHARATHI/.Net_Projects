@@ -9,15 +9,20 @@ namespace MyWebApiApp.Controllers
     [Route("api/subject")]
     public class SubjectMarkController : ControllerBase
     {
+        private readonly AppDbContext dbcontext;
+
+        public SubjectMarkController(AppDbContext _dbcontext)
+        {
+            dbcontext = _dbcontext;
+        }
+        [HttpGet]
         public async Task<IActionResult> GetAll()
         {
             Log.Information("GetAll API called");
             try
             {
-                using var db = new AppDbContext();
                 Log.Information("Database context created");
-                var low_marks = await db.MarkDetails
-                    .Where(x => x.mark <= 90)
+                var all_marks = await dbcontext.MarkDetails
                     .Select(a => new
                     {
                         sub_name = a.Subject,
@@ -26,8 +31,8 @@ namespace MyWebApiApp.Controllers
                     .ToListAsync();
                 Log.Information(
                     "Successfully fetched {Count} subject marks",
-                    low_marks.Count);
-                return Ok(low_marks);
+                    all_marks.Count);
+                return Ok(all_marks);
             }
             catch (Exception ex)
             {
