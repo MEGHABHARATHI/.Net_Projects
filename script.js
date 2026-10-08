@@ -1,18 +1,19 @@
-$(document).ready(function() {$.ajax({
-        url: "https://dummyjson.com/todos/10",
-        type: "GET",
-        dataType: "json",
-        success: function(response) {
-            console.log("API Response:", response);
-            console.log("Todo:", response.todo);
-            console.log("Completed:", response.completed);
+$(document).ready(function() {
+  $.ajax({
+  url: "http://localhost:5104/api/Product",
+  method: "GET",
+  processData: false,
+  contentType: false,
+  data: null
+}).done((response) => console.log(response));
+$.ajax({
+  url: "http://localhost:5104/api/subject",
+  method: "GET",
+  processData: false,
+  contentType: false,
+  data: null
+}).done((response) => console.log(response));
 
-           
-        },
-        error: function(xhr, status, error) {
-            console.error("Error fetching data:", error);
-        }
-    });
 });
  
  

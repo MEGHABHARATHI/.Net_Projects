@@ -1,2 +1,626 @@
 2026-10-07 10:04:47.372 +05:30 [INF] GetAll API called
 2026-10-07 10:04:47.475 +05:30 [INF] Database context created
+2026-10-07 10:04:50.132 +05:30 [INF] EF SQL:--info: 07-10-2026 10:04:50.131 RelationalEventId.CommandExecuted[20101] (Microsoft.EntityFrameworkCore.Database.Command) 
+      Executed DbCommand (33ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+      SELECT "m"."Subject" AS "sub_name", "m"."mark" AS "mark_value"
+      FROM "MarkDetails" AS "m"
+2026-10-07 10:04:50.192 +05:30 [INF] Successfully fetched 3 subject marks
+2026-10-07 11:37:13.123 +05:30 [INF] EF SQL:--info: 07-10-2026 11:37:13.122 RelationalEventId.CommandExecuted[20101] (Microsoft.EntityFrameworkCore.Database.Command) 
+      Executed DbCommand (8ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+      SELECT "m"."id", "m"."Subject", "m"."mark"
+      FROM "MarkDetails" AS "m"
+2026-10-07 11:50:11.741 +05:30 [INF] Now listening on: https://localhost:7148
+2026-10-07 11:50:11.775 +05:30 [INF] Now listening on: http://localhost:5104
+2026-10-07 11:50:11.810 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2026-10-07 11:50:11.811 +05:30 [INF] Hosting environment: Development
+2026-10-07 11:50:11.812 +05:30 [INF] Content root path: C:\Users\user\Desktop\session\CSharp\MyWebApiApp
+2026-10-07 11:50:22.065 +05:30 [INF] Now listening on: https://localhost:7148
+2026-10-07 11:50:22.141 +05:30 [INF] Now listening on: http://localhost:5104
+2026-10-07 11:50:22.438 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2026-10-07 11:50:22.439 +05:30 [INF] Hosting environment: Development
+2026-10-07 11:50:22.440 +05:30 [INF] Content root path: C:\Users\user\Desktop\session\CSharp\MyWebApiApp
+2026-10-07 11:50:40.387 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7148/scalar/ - null null
+2026-10-07 11:50:40.579 +05:30 [INF] Executing endpoint 'HTTP: GET /scalar/{documentName?}'
+2026-10-07 11:50:40.884 +05:30 [INF] Write content with HTTP Response ContentType of text/html
+2026-10-07 11:50:40.919 +05:30 [INF] Executed endpoint 'HTTP: GET /scalar/{documentName?}'
+2026-10-07 11:50:40.945 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7148/scalar/scalar.js - null null
+2026-10-07 11:50:40.950 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7148/_framework/aspnetcore-browser-refresh.js - null null
+2026-10-07 11:50:40.950 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7148/scalar/scalar.aspnetcore.js - null null
+2026-10-07 11:50:40.950 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7148/_vs/browserLink - null null
+2026-10-07 11:50:40.958 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7148/scalar/ - 200 null text/html 580.9116ms
+2026-10-07 11:50:40.965 +05:30 [INF] Executing endpoint 'HTTP: GET /scalar/scalar.aspnetcore.js'
+2026-10-07 11:50:40.973 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7148/_framework/aspnetcore-browser-refresh.js - 200 14927 application/javascript; charset=utf-8 23.2691ms
+2026-10-07 11:50:40.959 +05:30 [INF] Executing endpoint 'HTTP: GET /scalar/scalar.js'
+2026-10-07 11:50:40.982 +05:30 [INF] Sending file with download name ''.
+2026-10-07 11:50:40.987 +05:30 [INF] Executed endpoint 'HTTP: GET /scalar/scalar.aspnetcore.js'
+2026-10-07 11:50:40.991 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7148/scalar/scalar.aspnetcore.js - 304 null null 41.1645ms
+2026-10-07 11:50:40.994 +05:30 [INF] Sending file with download name ''.
+2026-10-07 11:50:40.997 +05:30 [INF] Executed endpoint 'HTTP: GET /scalar/scalar.js'
+2026-10-07 11:50:40.999 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7148/scalar/scalar.js - 304 null null 53.7669ms
+2026-10-07 11:50:41.051 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7148/_vs/browserLink - 200 null text/javascript; charset=UTF-8 100.4203ms
+2026-10-07 11:50:41.434 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7148/openapi/v1.json - null null
+2026-10-07 11:50:41.437 +05:30 [INF] Executing endpoint 'HTTP: GET /openapi/{documentName}.json'
+2026-10-07 11:50:41.449 +05:30 [INF] Executed endpoint 'HTTP: GET /openapi/{documentName}.json'
+2026-10-07 11:50:41.455 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7148/openapi/v1.json - 200 null application/json;charset=utf-8 20.4066ms
+2026-10-07 11:50:41.653 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7148/scalar/favicon.svg - null null
+2026-10-07 11:50:41.663 +05:30 [INF] Executing endpoint 'HTTP: GET /scalar/favicon.svg'
+2026-10-07 11:50:41.674 +05:30 [INF] Sending file with download name ''.
+2026-10-07 11:50:41.677 +05:30 [INF] Executed endpoint 'HTTP: GET /scalar/favicon.svg'
+2026-10-07 11:50:41.686 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7148/scalar/favicon.svg - 304 null null 33.3023ms
+2026-10-07 11:51:06.877 +05:30 [INF] Now listening on: https://localhost:7148
+2026-10-07 11:51:06.914 +05:30 [INF] Now listening on: http://localhost:5104
+2026-10-07 11:51:06.957 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2026-10-07 11:51:06.959 +05:30 [INF] Hosting environment: Development
+2026-10-07 11:51:06.960 +05:30 [INF] Content root path: C:\Users\user\Desktop\session\CSharp\MyWebApiApp
+2026-10-07 11:51:21.930 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7148/scalar/ - null null
+2026-10-07 11:51:22.123 +05:30 [INF] Executing endpoint 'HTTP: GET /scalar/{documentName?}'
+2026-10-07 11:51:22.363 +05:30 [INF] Write content with HTTP Response ContentType of text/html
+2026-10-07 11:51:22.385 +05:30 [INF] Executed endpoint 'HTTP: GET /scalar/{documentName?}'
+2026-10-07 11:51:22.394 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7148/scalar/ - 200 null text/html 473.5581ms
+2026-10-07 11:51:22.410 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7148/scalar/scalar.js - null null
+2026-10-07 11:51:22.416 +05:30 [INF] Executing endpoint 'HTTP: GET /scalar/scalar.js'
+2026-10-07 11:51:22.416 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7148/scalar/scalar.aspnetcore.js - null null
+2026-10-07 11:51:22.417 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7148/_vs/browserLink - null null
+2026-10-07 11:51:22.416 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7148/_framework/aspnetcore-browser-refresh.js - null null
+2026-10-07 11:51:22.423 +05:30 [INF] Executing endpoint 'HTTP: GET /scalar/scalar.aspnetcore.js'
+2026-10-07 11:51:22.449 +05:30 [INF] Sending file with download name ''.
+2026-10-07 11:51:22.449 +05:30 [INF] Sending file with download name ''.
+2026-10-07 11:51:22.453 +05:30 [INF] Executed endpoint 'HTTP: GET /scalar/scalar.aspnetcore.js'
+2026-10-07 11:51:22.453 +05:30 [INF] Executed endpoint 'HTTP: GET /scalar/scalar.js'
+2026-10-07 11:51:22.454 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7148/scalar/scalar.aspnetcore.js - 304 null null 38.0787ms
+2026-10-07 11:51:22.456 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7148/scalar/scalar.js - 304 null null 46.6061ms
+2026-10-07 11:51:22.459 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7148/_framework/aspnetcore-browser-refresh.js - 200 14927 application/javascript; charset=utf-8 43.1648ms
+2026-10-07 11:51:22.493 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7148/_vs/browserLink - 200 null text/javascript; charset=UTF-8 76.1083ms
+2026-10-07 11:51:22.569 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7148/openapi/v1.json - null null
+2026-10-07 11:51:22.572 +05:30 [INF] Executing endpoint 'HTTP: GET /openapi/{documentName}.json'
+2026-10-07 11:51:22.589 +05:30 [INF] Executed endpoint 'HTTP: GET /openapi/{documentName}.json'
+2026-10-07 11:51:22.592 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7148/openapi/v1.json - 200 null application/json;charset=utf-8 22.5118ms
+2026-10-07 11:51:22.867 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7148/scalar/favicon.svg - null null
+2026-10-07 11:51:22.874 +05:30 [INF] Executing endpoint 'HTTP: GET /scalar/favicon.svg'
+2026-10-07 11:51:22.877 +05:30 [INF] Sending file with download name ''.
+2026-10-07 11:51:22.879 +05:30 [INF] Executed endpoint 'HTTP: GET /scalar/favicon.svg'
+2026-10-07 11:51:22.881 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7148/scalar/favicon.svg - 304 null null 13.5899ms
+2026-10-07 11:51:39.840 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7148/api/subject - null null
+2026-10-07 11:51:39.843 +05:30 [INF] Executing endpoint 'MyWebApiApp.Controllers.SubjectMarkController.GetAll (MyWebApiApp)'
+2026-10-07 11:51:39.873 +05:30 [INF] Route matched with {action = "GetAll", controller = "SubjectMark"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetAll() on controller MyWebApiApp.Controllers.SubjectMarkController (MyWebApiApp).
+2026-10-07 11:51:40.892 +05:30 [INF] EF SQL:--info: 07-10-2026 11:51:40.890 RelationalEventId.CommandExecuted[20101] (Microsoft.EntityFrameworkCore.Database.Command) 
+      Executed DbCommand (8ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+      SELECT "m"."id", "m"."Subject", "m"."mark"
+      FROM "MarkDetails" AS "m"
+2026-10-07 11:51:40.979 +05:30 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[MyWebApiApp.Models.SubjectMark, MyWebApiApp, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2026-10-07 11:51:40.999 +05:30 [INF] Executed action MyWebApiApp.Controllers.SubjectMarkController.GetAll (MyWebApiApp) in 1118.0368ms
+2026-10-07 11:51:41.000 +05:30 [INF] Executed endpoint 'MyWebApiApp.Controllers.SubjectMarkController.GetAll (MyWebApiApp)'
+2026-10-07 11:51:41.007 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7148/api/subject - 200 null application/json; charset=utf-8 1166.8926ms
+2026-10-07 11:52:00.830 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7148/api/subject - null null
+2026-10-07 11:52:00.832 +05:30 [INF] Executing endpoint 'MyWebApiApp.Controllers.SubjectMarkController.GetAll (MyWebApiApp)'
+2026-10-07 11:52:00.833 +05:30 [INF] Route matched with {action = "GetAll", controller = "SubjectMark"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetAll() on controller MyWebApiApp.Controllers.SubjectMarkController (MyWebApiApp).
+2026-10-07 11:52:00.846 +05:30 [INF] EF SQL:--info: 07-10-2026 11:52:00.846 RelationalEventId.CommandExecuted[20101] (Microsoft.EntityFrameworkCore.Database.Command) 
+      Executed DbCommand (0ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+      SELECT "m"."id", "m"."Subject", "m"."mark"
+      FROM "MarkDetails" AS "m"
+2026-10-07 11:52:00.848 +05:30 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[MyWebApiApp.Models.SubjectMark, MyWebApiApp, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2026-10-07 11:52:00.849 +05:30 [INF] Executed action MyWebApiApp.Controllers.SubjectMarkController.GetAll (MyWebApiApp) in 14.5075ms
+2026-10-07 11:52:00.850 +05:30 [INF] Executed endpoint 'MyWebApiApp.Controllers.SubjectMarkController.GetAll (MyWebApiApp)'
+2026-10-07 11:52:00.851 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7148/api/subject - 200 null application/json; charset=utf-8 20.3406ms
+2026-10-07 11:52:14.401 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7148/api/subject - null null
+2026-10-07 11:52:14.403 +05:30 [INF] Executing endpoint 'MyWebApiApp.Controllers.SubjectMarkController.GetAll (MyWebApiApp)'
+2026-10-07 11:52:14.403 +05:30 [INF] Route matched with {action = "GetAll", controller = "SubjectMark"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetAll() on controller MyWebApiApp.Controllers.SubjectMarkController (MyWebApiApp).
+2026-10-07 11:52:14.493 +05:30 [INF] EF SQL:--info: 07-10-2026 11:52:14.493 RelationalEventId.CommandExecuted[20101] (Microsoft.EntityFrameworkCore.Database.Command) 
+      Executed DbCommand (0ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+      SELECT "m"."id", "m"."Subject", "m"."mark"
+      FROM "MarkDetails" AS "m"
+2026-10-07 11:52:14.494 +05:30 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[MyWebApiApp.Models.SubjectMark, MyWebApiApp, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2026-10-07 11:52:14.496 +05:30 [INF] Executed action MyWebApiApp.Controllers.SubjectMarkController.GetAll (MyWebApiApp) in 91.5768ms
+2026-10-07 11:52:14.497 +05:30 [INF] Executed endpoint 'MyWebApiApp.Controllers.SubjectMarkController.GetAll (MyWebApiApp)'
+2026-10-07 11:52:14.498 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7148/api/subject - 200 null application/json; charset=utf-8 97.0503ms
+2026-10-07 11:52:18.164 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7148/api/subject - null null
+2026-10-07 11:52:18.166 +05:30 [INF] Executing endpoint 'MyWebApiApp.Controllers.SubjectMarkController.GetAll (MyWebApiApp)'
+2026-10-07 11:52:18.166 +05:30 [INF] Route matched with {action = "GetAll", controller = "SubjectMark"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetAll() on controller MyWebApiApp.Controllers.SubjectMarkController (MyWebApiApp).
+2026-10-07 11:52:18.168 +05:30 [INF] EF SQL:--info: 07-10-2026 11:52:18.168 RelationalEventId.CommandExecuted[20101] (Microsoft.EntityFrameworkCore.Database.Command) 
+      Executed DbCommand (0ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+      SELECT "m"."id", "m"."Subject", "m"."mark"
+      FROM "MarkDetails" AS "m"
+2026-10-07 11:52:18.169 +05:30 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[MyWebApiApp.Models.SubjectMark, MyWebApiApp, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2026-10-07 11:52:18.170 +05:30 [INF] Executed action MyWebApiApp.Controllers.SubjectMarkController.GetAll (MyWebApiApp) in 2.6222ms
+2026-10-07 11:52:18.171 +05:30 [INF] Executed endpoint 'MyWebApiApp.Controllers.SubjectMarkController.GetAll (MyWebApiApp)'
+2026-10-07 11:52:18.171 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7148/api/subject - 200 null application/json; charset=utf-8 7.8032ms
+2026-10-07 11:52:27.451 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7148/_framework/aspnetcore-browser-refresh.js - null null
+2026-10-07 11:52:27.454 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7148/_framework/aspnetcore-browser-refresh.js - 200 14927 application/javascript; charset=utf-8 3.0612ms
+2026-10-07 11:52:39.063 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7148/api/subject/2 - null null
+2026-10-07 11:52:39.065 +05:30 [INF] Executing endpoint 'MyWebApiApp.Controllers.SubjectMarkController.GetById (MyWebApiApp)'
+2026-10-07 11:52:39.081 +05:30 [INF] Route matched with {action = "GetById", controller = "SubjectMark"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetById(Int32) on controller MyWebApiApp.Controllers.SubjectMarkController (MyWebApiApp).
+2026-10-07 11:52:39.210 +05:30 [INF] EF SQL:--info: 07-10-2026 11:52:39.210 RelationalEventId.CommandExecuted[20101] (Microsoft.EntityFrameworkCore.Database.Command) 
+      Executed DbCommand (5ms) [Parameters=[@p='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+      SELECT "m"."id", "m"."Subject", "m"."mark"
+      FROM "MarkDetails" AS "m"
+      WHERE "m"."id" = @p
+      LIMIT 1
+2026-10-07 11:52:39.211 +05:30 [INF] Executing OkObjectResult, writing value of type 'MyWebApiApp.Models.SubjectMark'.
+2026-10-07 11:52:39.212 +05:30 [INF] Executed action MyWebApiApp.Controllers.SubjectMarkController.GetById (MyWebApiApp) in 129.088ms
+2026-10-07 11:52:39.213 +05:30 [INF] Executed endpoint 'MyWebApiApp.Controllers.SubjectMarkController.GetById (MyWebApiApp)'
+2026-10-07 11:52:39.214 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7148/api/subject/2 - 200 null application/json; charset=utf-8 151.408ms
+2026-10-07 11:57:01.371 +05:30 [INF] Now listening on: https://localhost:7148
+2026-10-07 11:57:01.396 +05:30 [INF] Now listening on: http://localhost:5104
+2026-10-07 11:57:01.422 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2026-10-07 11:57:01.423 +05:30 [INF] Hosting environment: Development
+2026-10-07 11:57:01.424 +05:30 [INF] Content root path: C:\Users\user\Desktop\session\CSharp\MyWebApiApp
+2026-10-07 11:57:06.816 +05:30 [INF] Now listening on: https://localhost:7148
+2026-10-07 11:57:06.880 +05:30 [INF] Now listening on: http://localhost:5104
+2026-10-07 11:57:06.940 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2026-10-07 11:57:06.941 +05:30 [INF] Hosting environment: Development
+2026-10-07 11:57:06.942 +05:30 [INF] Content root path: C:\Users\user\Desktop\session\CSharp\MyWebApiApp
+2026-10-07 11:57:15.449 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7148/scalar/ - null null
+2026-10-07 11:57:15.662 +05:30 [INF] Executing endpoint 'HTTP: GET /scalar/{documentName?}'
+2026-10-07 11:57:15.888 +05:30 [INF] Write content with HTTP Response ContentType of text/html
+2026-10-07 11:57:15.914 +05:30 [INF] Executed endpoint 'HTTP: GET /scalar/{documentName?}'
+2026-10-07 11:57:15.922 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7148/scalar/ - 200 null text/html 485.3125ms
+2026-10-07 11:57:15.939 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7148/scalar/scalar.js - null null
+2026-10-07 11:57:15.939 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7148/scalar/scalar.aspnetcore.js - null null
+2026-10-07 11:57:15.939 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7148/_vs/browserLink - null null
+2026-10-07 11:57:15.939 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7148/_framework/aspnetcore-browser-refresh.js - null null
+2026-10-07 11:57:15.944 +05:30 [INF] Executing endpoint 'HTTP: GET /scalar/scalar.aspnetcore.js'
+2026-10-07 11:57:15.944 +05:30 [INF] Executing endpoint 'HTTP: GET /scalar/scalar.js'
+2026-10-07 11:57:15.956 +05:30 [INF] Sending file with download name ''.
+2026-10-07 11:57:15.963 +05:30 [INF] Executed endpoint 'HTTP: GET /scalar/scalar.aspnetcore.js'
+2026-10-07 11:57:15.964 +05:30 [INF] Sending file with download name ''.
+2026-10-07 11:57:15.992 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7148/scalar/scalar.aspnetcore.js - 304 null null 52.5363ms
+2026-10-07 11:57:15.992 +05:30 [INF] Executed endpoint 'HTTP: GET /scalar/scalar.js'
+2026-10-07 11:57:15.993 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7148/_framework/aspnetcore-browser-refresh.js - 200 14927 application/javascript; charset=utf-8 53.7764ms
+2026-10-07 11:57:15.997 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7148/scalar/scalar.js - 304 null null 57.8927ms
+2026-10-07 11:57:16.030 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7148/_vs/browserLink - 200 null text/javascript; charset=UTF-8 91.1304ms
+2026-10-07 11:57:16.084 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7148/openapi/v1.json - null null
+2026-10-07 11:57:16.090 +05:30 [INF] Executing endpoint 'HTTP: GET /openapi/{documentName}.json'
+2026-10-07 11:57:16.103 +05:30 [INF] Executed endpoint 'HTTP: GET /openapi/{documentName}.json'
+2026-10-07 11:57:16.106 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7148/openapi/v1.json - 200 null application/json;charset=utf-8 21.907ms
+2026-10-07 11:57:16.231 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7148/scalar/favicon.svg - null null
+2026-10-07 11:57:16.237 +05:30 [INF] Executing endpoint 'HTTP: GET /scalar/favicon.svg'
+2026-10-07 11:57:16.239 +05:30 [INF] Sending file with download name ''.
+2026-10-07 11:57:16.241 +05:30 [INF] Executed endpoint 'HTTP: GET /scalar/favicon.svg'
+2026-10-07 11:57:16.245 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7148/scalar/favicon.svg - 304 null null 13.9672ms
+2026-10-07 11:57:27.233 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7148/api/subject/1 - null null
+2026-10-07 11:57:27.236 +05:30 [INF] Executing endpoint 'MyWebApiApp.Controllers.SubjectMarkController.GetById (MyWebApiApp)'
+2026-10-07 11:57:27.266 +05:30 [INF] Route matched with {action = "GetById", controller = "SubjectMark"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetById(Int32) on controller MyWebApiApp.Controllers.SubjectMarkController (MyWebApiApp).
+2026-10-07 11:57:28.424 +05:30 [INF] EF SQL:--info: 07-10-2026 11:57:28.422 RelationalEventId.CommandExecuted[20101] (Microsoft.EntityFrameworkCore.Database.Command) 
+      Executed DbCommand (18ms) [Parameters=[@p='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+      SELECT "m"."id", "m"."Subject", "m"."mark"
+      FROM "MarkDetails" AS "m"
+      WHERE "m"."id" = @p
+      LIMIT 1
+2026-10-07 11:57:28.526 +05:30 [INF] Executing OkObjectResult, writing value of type 'MyWebApiApp.Models.SubjectMark'.
+2026-10-07 11:57:28.552 +05:30 [INF] Executed action MyWebApiApp.Controllers.SubjectMarkController.GetById (MyWebApiApp) in 1279.8946ms
+2026-10-07 11:57:28.554 +05:30 [INF] Executed endpoint 'MyWebApiApp.Controllers.SubjectMarkController.GetById (MyWebApiApp)'
+2026-10-07 11:57:28.565 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7148/api/subject/1 - 200 null application/json; charset=utf-8 1331.5576ms
+2026-10-07 12:13:44.799 +05:30 [INF] Now listening on: https://localhost:7148
+2026-10-07 12:13:44.829 +05:30 [INF] Now listening on: http://localhost:5104
+2026-10-07 12:13:44.866 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2026-10-07 12:13:44.867 +05:30 [INF] Hosting environment: Development
+2026-10-07 12:13:44.868 +05:30 [INF] Content root path: C:\Users\user\Desktop\session\CSharp\MyWebApiApp
+2026-10-07 12:14:00.239 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7148/scalar/ - null null
+2026-10-07 12:14:00.398 +05:30 [INF] Executing endpoint 'HTTP: GET /scalar/{documentName?}'
+2026-10-07 12:14:00.570 +05:30 [INF] Write content with HTTP Response ContentType of text/html
+2026-10-07 12:14:00.586 +05:30 [INF] Executed endpoint 'HTTP: GET /scalar/{documentName?}'
+2026-10-07 12:14:00.596 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7148/scalar/ - 200 null text/html 367.3119ms
+2026-10-07 12:14:00.612 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7148/scalar/scalar.js - null null
+2026-10-07 12:14:00.612 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7148/scalar/scalar.aspnetcore.js - null null
+2026-10-07 12:14:00.612 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7148/_framework/aspnetcore-browser-refresh.js - null null
+2026-10-07 12:14:00.612 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7148/_vs/browserLink - null null
+2026-10-07 12:14:00.617 +05:30 [INF] Executing endpoint 'HTTP: GET /scalar/scalar.aspnetcore.js'
+2026-10-07 12:14:00.617 +05:30 [INF] Executing endpoint 'HTTP: GET /scalar/scalar.js'
+2026-10-07 12:14:00.626 +05:30 [INF] Sending file with download name ''.
+2026-10-07 12:14:00.664 +05:30 [INF] Sending file with download name ''.
+2026-10-07 12:14:00.678 +05:30 [INF] Executed endpoint 'HTTP: GET /scalar/scalar.aspnetcore.js'
+2026-10-07 12:14:00.678 +05:30 [INF] Executed endpoint 'HTTP: GET /scalar/scalar.js'
+2026-10-07 12:14:00.680 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7148/scalar/scalar.aspnetcore.js - 304 null null 66.6701ms
+2026-10-07 12:14:00.681 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7148/scalar/scalar.js - 304 null null 69.2069ms
+2026-10-07 12:14:00.683 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7148/_framework/aspnetcore-browser-refresh.js - 200 14927 application/javascript; charset=utf-8 70.3641ms
+2026-10-07 12:14:00.714 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7148/_vs/browserLink - 200 null text/javascript; charset=UTF-8 101.1649ms
+2026-10-07 12:14:00.779 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7148/openapi/v1.json - null null
+2026-10-07 12:14:00.783 +05:30 [INF] Executing endpoint 'HTTP: GET /openapi/{documentName}.json'
+2026-10-07 12:14:00.798 +05:30 [INF] Executed endpoint 'HTTP: GET /openapi/{documentName}.json'
+2026-10-07 12:14:00.800 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7148/openapi/v1.json - 200 null application/json;charset=utf-8 20.9053ms
+2026-10-07 12:14:00.927 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7148/scalar/favicon.svg - null null
+2026-10-07 12:14:00.932 +05:30 [INF] Executing endpoint 'HTTP: GET /scalar/favicon.svg'
+2026-10-07 12:14:00.933 +05:30 [INF] Sending file with download name ''.
+2026-10-07 12:14:00.934 +05:30 [INF] Executed endpoint 'HTTP: GET /scalar/favicon.svg'
+2026-10-07 12:14:00.935 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7148/scalar/favicon.svg - 304 null null 7.4701ms
+2026-10-07 12:14:12.657 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7148/scalar/ - null null
+2026-10-07 12:14:12.666 +05:30 [INF] Executing endpoint 'HTTP: GET /scalar/{documentName?}'
+2026-10-07 12:14:12.668 +05:30 [INF] Write content with HTTP Response ContentType of text/html
+2026-10-07 12:14:12.669 +05:30 [INF] Executed endpoint 'HTTP: GET /scalar/{documentName?}'
+2026-10-07 12:14:12.670 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7148/scalar/ - 200 null text/html 13.213ms
+2026-10-07 12:14:12.694 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7148/scalar/scalar.js - null null
+2026-10-07 12:14:12.694 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7148/_framework/aspnetcore-browser-refresh.js - null null
+2026-10-07 12:14:12.694 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7148/scalar/scalar.aspnetcore.js - null null
+2026-10-07 12:14:12.695 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7148/_vs/browserLink - null null
+2026-10-07 12:14:12.697 +05:30 [INF] Executing endpoint 'HTTP: GET /scalar/scalar.js'
+2026-10-07 12:14:12.699 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7148/_framework/aspnetcore-browser-refresh.js - 200 14927 application/javascript; charset=utf-8 4.5699ms
+2026-10-07 12:14:12.700 +05:30 [INF] Executing endpoint 'HTTP: GET /scalar/scalar.aspnetcore.js'
+2026-10-07 12:14:12.703 +05:30 [INF] Sending file with download name ''.
+2026-10-07 12:14:12.708 +05:30 [INF] Sending file with download name ''.
+2026-10-07 12:14:12.708 +05:30 [INF] Executed endpoint 'HTTP: GET /scalar/scalar.js'
+2026-10-07 12:14:12.709 +05:30 [INF] Executed endpoint 'HTTP: GET /scalar/scalar.aspnetcore.js'
+2026-10-07 12:14:12.710 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7148/scalar/scalar.js - 304 null null 15.6142ms
+2026-10-07 12:14:12.711 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7148/scalar/scalar.aspnetcore.js - 304 null null 16.4216ms
+2026-10-07 12:14:12.720 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7148/_vs/browserLink - 200 null text/javascript; charset=UTF-8 25.0201ms
+2026-10-07 12:14:12.751 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7148/openapi/v1.json - null null
+2026-10-07 12:14:12.753 +05:30 [INF] Executing endpoint 'HTTP: GET /openapi/{documentName}.json'
+2026-10-07 12:14:12.761 +05:30 [INF] Executed endpoint 'HTTP: GET /openapi/{documentName}.json'
+2026-10-07 12:14:12.763 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7148/openapi/v1.json - 200 null application/json;charset=utf-8 12.5541ms
+2026-10-07 12:14:12.935 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7148/scalar/favicon.svg - null null
+2026-10-07 12:14:12.939 +05:30 [INF] Executing endpoint 'HTTP: GET /scalar/favicon.svg'
+2026-10-07 12:14:12.941 +05:30 [INF] Sending file with download name ''.
+2026-10-07 12:14:12.943 +05:30 [INF] Executed endpoint 'HTTP: GET /scalar/favicon.svg'
+2026-10-07 12:14:12.944 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7148/scalar/favicon.svg - 304 null null 8.7828ms
+2026-10-07 12:14:39.648 +05:30 [INF] Request starting HTTP/2 POST https://localhost:7148/api/subject - application/json 39
+2026-10-07 12:14:39.651 +05:30 [INF] Executing endpoint 'MyWebApiApp.Controllers.SubjectMarkController.Create (MyWebApiApp)'
+2026-10-07 12:14:39.681 +05:30 [INF] Route matched with {action = "Create", controller = "SubjectMark"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Create(MyWebApiApp.Models.SubjectMark) on controller MyWebApiApp.Controllers.SubjectMarkController (MyWebApiApp).
+2026-10-07 12:14:40.782 +05:30 [INF] EF SQL:--info: 07-10-2026 12:14:40.780 RelationalEventId.CommandExecuted[20101] (Microsoft.EntityFrameworkCore.Database.Command) 
+      Executed DbCommand (34ms) [Parameters=[@p0='?' (Size = 3), @p1='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+      INSERT INTO "MarkDetails" ("Subject", "mark")
+      VALUES (@p0, @p1)
+      RETURNING "id";
+2026-10-07 12:14:40.860 +05:30 [INF] Executing OkObjectResult, writing value of type 'MyWebApiApp.Models.SubjectMark'.
+2026-10-07 12:14:40.873 +05:30 [INF] Executed action MyWebApiApp.Controllers.SubjectMarkController.Create (MyWebApiApp) in 1184.4286ms
+2026-10-07 12:14:40.876 +05:30 [INF] Executed endpoint 'MyWebApiApp.Controllers.SubjectMarkController.Create (MyWebApiApp)'
+2026-10-07 12:14:40.886 +05:30 [INF] Request finished HTTP/2 POST https://localhost:7148/api/subject - 200 null application/json; charset=utf-8 1238.2338ms
+2026-10-07 12:23:45.440 +05:30 [INF] Request starting HTTP/2 POST https://localhost:7148/api/subject - application/json 39
+2026-10-07 12:23:45.443 +05:30 [INF] Executing endpoint 'MyWebApiApp.Controllers.SubjectMarkController.Create (MyWebApiApp)'
+2026-10-07 12:23:45.444 +05:30 [INF] Route matched with {action = "Create", controller = "SubjectMark"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Create(MyWebApiApp.Models.SubjectMark) on controller MyWebApiApp.Controllers.SubjectMarkController (MyWebApiApp).
+2026-10-07 12:23:45.532 +05:30 [INF] EF SQL:--info: 07-10-2026 12:23:45.532 RelationalEventId.CommandExecuted[20101] (Microsoft.EntityFrameworkCore.Database.Command) 
+      Executed DbCommand (2ms) [Parameters=[@p0='?' (Size = 3), @p1='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+      INSERT INTO "MarkDetails" ("Subject", "mark")
+      VALUES (@p0, @p1)
+      RETURNING "id";
+2026-10-07 12:23:45.540 +05:30 [INF] Executing OkObjectResult, writing value of type 'MyWebApiApp.Models.SubjectMark'.
+2026-10-07 12:23:45.543 +05:30 [INF] Executed action MyWebApiApp.Controllers.SubjectMarkController.Create (MyWebApiApp) in 96.6488ms
+2026-10-07 12:23:45.544 +05:30 [INF] Executed endpoint 'MyWebApiApp.Controllers.SubjectMarkController.Create (MyWebApiApp)'
+2026-10-07 12:23:45.553 +05:30 [INF] Request finished HTTP/2 POST https://localhost:7148/api/subject - 200 null application/json; charset=utf-8 113.5935ms
+2026-10-07 12:24:02.029 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7148/api/subject - null null
+2026-10-07 12:24:02.031 +05:30 [INF] Executing endpoint 'MyWebApiApp.Controllers.SubjectMarkController.GetAll (MyWebApiApp)'
+2026-10-07 12:24:02.039 +05:30 [INF] Route matched with {action = "GetAll", controller = "SubjectMark"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetAll() on controller MyWebApiApp.Controllers.SubjectMarkController (MyWebApiApp).
+2026-10-07 12:24:02.295 +05:30 [INF] EF SQL:--info: 07-10-2026 12:24:02.295 RelationalEventId.CommandExecuted[20101] (Microsoft.EntityFrameworkCore.Database.Command) 
+      Executed DbCommand (0ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+      SELECT "m"."id", "m"."Subject", "m"."mark"
+      FROM "MarkDetails" AS "m"
+2026-10-07 12:24:02.305 +05:30 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[MyWebApiApp.Models.SubjectMark, MyWebApiApp, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2026-10-07 12:24:02.307 +05:30 [INF] Executed action MyWebApiApp.Controllers.SubjectMarkController.GetAll (MyWebApiApp) in 266.5637ms
+2026-10-07 12:24:02.308 +05:30 [INF] Executed endpoint 'MyWebApiApp.Controllers.SubjectMarkController.GetAll (MyWebApiApp)'
+2026-10-07 12:24:02.309 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7148/api/subject - 200 null application/json; charset=utf-8 279.4607ms
+2026-10-07 12:30:59.561 +05:30 [INF] Now listening on: https://localhost:7148
+2026-10-07 12:30:59.591 +05:30 [INF] Now listening on: http://localhost:5104
+2026-10-07 12:30:59.627 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2026-10-07 12:30:59.628 +05:30 [INF] Hosting environment: Development
+2026-10-07 12:30:59.629 +05:30 [INF] Content root path: C:\Users\user\Desktop\session\CSharp\MyWebApiApp
+2026-10-07 12:31:02.998 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7148/scalar/ - null null
+2026-10-07 12:31:03.147 +05:30 [INF] Executing endpoint 'HTTP: GET /scalar/{documentName?}'
+2026-10-07 12:31:03.345 +05:30 [INF] Write content with HTTP Response ContentType of text/html
+2026-10-07 12:31:03.362 +05:30 [INF] Executed endpoint 'HTTP: GET /scalar/{documentName?}'
+2026-10-07 12:31:03.370 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7148/scalar/ - 200 null text/html 378.3019ms
+2026-10-07 12:31:03.386 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7148/scalar/scalar.js - null null
+2026-10-07 12:31:03.387 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7148/_framework/aspnetcore-browser-refresh.js - null null
+2026-10-07 12:31:03.391 +05:30 [INF] Executing endpoint 'HTTP: GET /scalar/scalar.js'
+2026-10-07 12:31:03.387 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7148/scalar/scalar.aspnetcore.js - null null
+2026-10-07 12:31:03.387 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7148/_vs/browserLink - null null
+2026-10-07 12:31:03.429 +05:30 [INF] Executing endpoint 'HTTP: GET /scalar/scalar.aspnetcore.js'
+2026-10-07 12:31:03.454 +05:30 [INF] Sending file with download name ''.
+2026-10-07 12:31:03.454 +05:30 [INF] Sending file with download name ''.
+2026-10-07 12:31:03.460 +05:30 [INF] Executed endpoint 'HTTP: GET /scalar/scalar.js'
+2026-10-07 12:31:03.460 +05:30 [INF] Executed endpoint 'HTTP: GET /scalar/scalar.aspnetcore.js'
+2026-10-07 12:31:03.463 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7148/scalar/scalar.js - 304 null null 76.6471ms
+2026-10-07 12:31:03.463 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7148/_framework/aspnetcore-browser-refresh.js - 200 14927 application/javascript; charset=utf-8 76.0785ms
+2026-10-07 12:31:03.468 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7148/scalar/scalar.aspnetcore.js - 304 null null 79.8949ms
+2026-10-07 12:31:03.507 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7148/_vs/browserLink - 200 null text/javascript; charset=UTF-8 119.5412ms
+2026-10-07 12:31:03.891 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7148/openapi/v1.json - null null
+2026-10-07 12:31:03.895 +05:30 [INF] Executing endpoint 'HTTP: GET /openapi/{documentName}.json'
+2026-10-07 12:31:03.913 +05:30 [INF] Executed endpoint 'HTTP: GET /openapi/{documentName}.json'
+2026-10-07 12:31:03.915 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7148/openapi/v1.json - 200 null application/json;charset=utf-8 23.6572ms
+2026-10-07 12:31:04.244 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7148/scalar/favicon.svg - null null
+2026-10-07 12:31:04.247 +05:30 [INF] Executing endpoint 'HTTP: GET /scalar/favicon.svg'
+2026-10-07 12:31:04.251 +05:30 [INF] Sending file with download name ''.
+2026-10-07 12:31:04.254 +05:30 [INF] Executed endpoint 'HTTP: GET /scalar/favicon.svg'
+2026-10-07 12:31:04.256 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7148/scalar/favicon.svg - 304 null null 11.933ms
+2026-10-07 12:34:32.229 +05:30 [INF] Request starting HTTP/2 OPTIONS https://localhost:7148/api/subject - null null
+2026-10-07 12:34:32.248 +05:30 [INF] Executing endpoint '405 HTTP Method Not Supported'
+2026-10-07 12:34:32.250 +05:30 [INF] Executed endpoint '405 HTTP Method Not Supported'
+2026-10-07 12:34:32.253 +05:30 [INF] Request finished HTTP/2 OPTIONS https://localhost:7148/api/subject - 405 0 null 24.077ms
+2026-10-07 12:34:51.991 +05:30 [INF] Request starting HTTP/2 OPTIONS https://localhost:7148/api/subject - null null
+2026-10-07 12:34:51.995 +05:30 [INF] Executing endpoint '405 HTTP Method Not Supported'
+2026-10-07 12:34:51.997 +05:30 [INF] Executed endpoint '405 HTTP Method Not Supported'
+2026-10-07 12:34:51.998 +05:30 [INF] Request finished HTTP/2 OPTIONS https://localhost:7148/api/subject - 405 0 null 7.6705ms
+2026-10-07 12:36:48.641 +05:30 [INF] Request starting HTTP/2 OPTIONS https://localhost:7148/api/subject - null null
+2026-10-07 12:36:48.647 +05:30 [INF] Executing endpoint '405 HTTP Method Not Supported'
+2026-10-07 12:36:48.649 +05:30 [INF] Executed endpoint '405 HTTP Method Not Supported'
+2026-10-07 12:36:48.659 +05:30 [INF] Request finished HTTP/2 OPTIONS https://localhost:7148/api/subject - 405 0 null 17.9962ms
+2026-10-07 12:37:04.553 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7148/api/subject - null null
+2026-10-07 12:37:04.565 +05:30 [INF] Executing endpoint 'MyWebApiApp.Controllers.SubjectMarkController.GetAll (MyWebApiApp)'
+2026-10-07 12:37:04.653 +05:30 [INF] Route matched with {action = "GetAll", controller = "SubjectMark"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetAll() on controller MyWebApiApp.Controllers.SubjectMarkController (MyWebApiApp).
+2026-10-07 12:37:05.912 +05:30 [INF] EF SQL:--info: 07-10-2026 12:37:05.910 RelationalEventId.CommandExecuted[20101] (Microsoft.EntityFrameworkCore.Database.Command) 
+      Executed DbCommand (20ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+      SELECT "m"."id", "m"."Subject", "m"."mark"
+      FROM "MarkDetails" AS "m"
+2026-10-07 12:37:06.050 +05:30 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[MyWebApiApp.Models.SubjectMark, MyWebApiApp, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2026-10-07 12:37:06.067 +05:30 [INF] Executed action MyWebApiApp.Controllers.SubjectMarkController.GetAll (MyWebApiApp) in 1405.9254ms
+2026-10-07 12:37:06.068 +05:30 [INF] Executed endpoint 'MyWebApiApp.Controllers.SubjectMarkController.GetAll (MyWebApiApp)'
+2026-10-07 12:37:06.083 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7148/api/subject - 200 null application/json; charset=utf-8 1530.6306ms
+2026-10-07 12:37:06.112 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7148/favicon.ico - null null
+2026-10-07 12:37:06.115 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7148/favicon.ico - 404 0 null 3.1556ms
+2026-10-07 12:37:06.120 +05:30 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:7148/favicon.ico, Response status code: 404
+2026-10-07 12:39:13.170 +05:30 [INF] Now listening on: https://localhost:7148
+2026-10-07 12:39:13.202 +05:30 [INF] Now listening on: http://localhost:5104
+2026-10-07 12:39:13.242 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2026-10-07 12:39:13.243 +05:30 [INF] Hosting environment: Development
+2026-10-07 12:39:13.244 +05:30 [INF] Content root path: C:\Users\user\Desktop\session\CSharp\MyWebApiApp
+2026-10-07 12:39:13.549 +05:30 [INF] Request starting HTTP/2 OPTIONS https://localhost:7148/api/subject - null null
+2026-10-07 12:39:13.594 +05:30 [INF] CORS policy execution successful.
+2026-10-07 12:39:13.601 +05:30 [INF] Request finished HTTP/2 OPTIONS https://localhost:7148/api/subject - 204 null null 58.6716ms
+2026-10-07 12:39:13.606 +05:30 [INF] Request starting HTTP/2 POST https://localhost:7148/api/subject - application/json 33
+2026-10-07 12:39:13.611 +05:30 [INF] CORS policy execution successful.
+2026-10-07 12:39:13.615 +05:30 [INF] Executing endpoint 'MyWebApiApp.Controllers.SubjectMarkController.Create (MyWebApiApp)'
+2026-10-07 12:39:13.643 +05:30 [INF] Route matched with {action = "Create", controller = "SubjectMark"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Create(MyWebApiApp.Models.SubjectMark) on controller MyWebApiApp.Controllers.SubjectMarkController (MyWebApiApp).
+2026-10-07 12:39:14.358 +05:30 [INF] EF SQL:--fail: 07-10-2026 12:39:14.357 RelationalEventId.CommandError[20102] (Microsoft.EntityFrameworkCore.Database.Command) 
+      Failed executing DbCommand (18ms) [Parameters=[@p0='?' (DbType = Int32), @p1='?', @p2='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+      INSERT INTO "MarkDetails" ("id", "Subject", "mark")
+      VALUES (@p0, @p1, @p2);
+2026-10-07 12:39:34.985 +05:30 [INF] Executed action MyWebApiApp.Controllers.SubjectMarkController.Create (MyWebApiApp) in 21336.8435ms
+2026-10-07 12:39:34.987 +05:30 [INF] Executed endpoint 'MyWebApiApp.Controllers.SubjectMarkController.Create (MyWebApiApp)'
+2026-10-07 12:39:34.988 +05:30 [ERR] An unhandled exception has occurred while executing the request.
+Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while saving the entity changes. See the inner exception for details.
+ ---> Microsoft.Data.Sqlite.SqliteException (0x80004005): SQLite Error 19: 'NOT NULL constraint failed: MarkDetails.mark'.
+   at Microsoft.Data.Sqlite.SqliteException.ThrowExceptionForRC(Int32 rc, sqlite3 db)
+   at Microsoft.Data.Sqlite.SqliteDataReader.NextResult()
+   at Microsoft.Data.Sqlite.SqliteCommand.ExecuteReader(CommandBehavior behavior)
+   at Microsoft.Data.Sqlite.SqliteCommand.ExecuteReaderAsync(CommandBehavior behavior, CancellationToken cancellationToken)
+   at Microsoft.Data.Sqlite.SqliteCommand.ExecuteDbDataReaderAsync(CommandBehavior behavior, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalDatabase.SaveChangesAsync(IList`1 entries, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(IList`1 entriesToSave, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(StateManager stateManager, Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at MyWebApiApp.Services.SubjectMarkService.AddSubjectMarkAsync(SubjectMark SubjectMark) in C:\Users\user\Desktop\session\CSharp\MyWebApiApp\Services\SubjectMarkService.cs:line 29
+   at MyWebApiApp.Controllers.SubjectMarkController.Create(SubjectMark subMark) in C:\Users\user\Desktop\session\CSharp\MyWebApiApp\Controllers\SubjectMarkController.cs:line 45
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|7_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2026-10-07 12:41:13.014 +05:30 [INF] Now listening on: https://localhost:7148
+2026-10-07 12:41:13.044 +05:30 [INF] Now listening on: http://localhost:5104
+2026-10-07 12:41:13.078 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2026-10-07 12:41:13.079 +05:30 [INF] Hosting environment: Development
+2026-10-07 12:41:13.080 +05:30 [INF] Content root path: C:\Users\user\Desktop\session\CSharp\MyWebApiApp
+2026-10-07 12:41:18.931 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7148/ - null null
+2026-10-07 12:41:19.030 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7148/ - 404 null null 101.834ms
+2026-10-07 12:41:19.035 +05:30 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:7148/, Response status code: 404
+2026-10-07 12:41:44.138 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7148/scalar - null null
+2026-10-07 12:41:44.151 +05:30 [INF] Executing endpoint 'HTTP: GET /scalar/{documentName?}'
+2026-10-07 12:41:44.163 +05:30 [INF] Executing RedirectResult, redirecting to scalar/.
+2026-10-07 12:41:44.165 +05:30 [INF] Executed endpoint 'HTTP: GET /scalar/{documentName?}'
+2026-10-07 12:41:44.166 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7148/scalar - 302 null null 27.4729ms
+2026-10-07 12:41:44.170 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7148/scalar/ - null null
+2026-10-07 12:41:44.177 +05:30 [INF] Executing endpoint 'HTTP: GET /scalar/{documentName?}'
+2026-10-07 12:41:44.323 +05:30 [INF] Write content with HTTP Response ContentType of text/html
+2026-10-07 12:41:44.335 +05:30 [INF] Executed endpoint 'HTTP: GET /scalar/{documentName?}'
+2026-10-07 12:41:44.338 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7148/scalar/ - 200 null text/html 167.6345ms
+2026-10-07 12:41:44.353 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7148/scalar/scalar.js - null null
+2026-10-07 12:41:44.355 +05:30 [INF] Executing endpoint 'HTTP: GET /scalar/scalar.js'
+2026-10-07 12:41:44.362 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7148/_framework/aspnetcore-browser-refresh.js - null null
+2026-10-07 12:41:44.362 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7148/scalar/scalar.aspnetcore.js - null null
+2026-10-07 12:41:44.362 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7148/_vs/browserLink - null null
+2026-10-07 12:41:44.380 +05:30 [INF] Sending file with download name ''.
+2026-10-07 12:41:44.382 +05:30 [INF] CORS policy execution failed.
+2026-10-07 12:41:44.382 +05:30 [INF] Request origin https://localhost:7148 does not have permission to access the resource.
+2026-10-07 12:41:44.383 +05:30 [INF] Executed endpoint 'HTTP: GET /scalar/scalar.js'
+2026-10-07 12:41:44.384 +05:30 [INF] Executing endpoint 'HTTP: GET /scalar/scalar.aspnetcore.js'
+2026-10-07 12:41:44.384 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7148/scalar/scalar.js - 304 null null 30.7371ms
+2026-10-07 12:41:44.385 +05:30 [INF] Sending file with download name ''.
+2026-10-07 12:41:44.386 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7148/_framework/aspnetcore-browser-refresh.js - 200 14927 application/javascript; charset=utf-8 24.2823ms
+2026-10-07 12:41:44.388 +05:30 [INF] Executed endpoint 'HTTP: GET /scalar/scalar.aspnetcore.js'
+2026-10-07 12:41:44.392 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7148/scalar/scalar.aspnetcore.js - 304 null null 30.5072ms
+2026-10-07 12:41:44.419 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7148/_vs/browserLink - 200 null text/javascript; charset=UTF-8 56.8481ms
+2026-10-07 12:41:44.776 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7148/openapi/v1.json - null null
+2026-10-07 12:41:44.778 +05:30 [INF] Executing endpoint 'HTTP: GET /openapi/{documentName}.json'
+2026-10-07 12:41:44.787 +05:30 [INF] Executed endpoint 'HTTP: GET /openapi/{documentName}.json'
+2026-10-07 12:41:44.790 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7148/openapi/v1.json - 200 null application/json;charset=utf-8 13.7408ms
+2026-10-07 12:41:45.005 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7148/scalar/favicon.svg - null null
+2026-10-07 12:41:45.008 +05:30 [INF] Executing endpoint 'HTTP: GET /scalar/favicon.svg'
+2026-10-07 12:41:45.010 +05:30 [INF] Sending file with download name ''.
+2026-10-07 12:41:45.011 +05:30 [INF] Executed endpoint 'HTTP: GET /scalar/favicon.svg'
+2026-10-07 12:41:45.013 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7148/scalar/favicon.svg - 304 null null 7.3576ms
+2026-10-07 12:42:53.663 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7148/api/subject - null null
+2026-10-07 12:42:53.676 +05:30 [INF] CORS policy execution successful.
+2026-10-07 12:42:53.679 +05:30 [INF] Executing endpoint 'MyWebApiApp.Controllers.SubjectMarkController.GetAll (MyWebApiApp)'
+2026-10-07 12:42:53.711 +05:30 [INF] Route matched with {action = "GetAll", controller = "SubjectMark"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetAll() on controller MyWebApiApp.Controllers.SubjectMarkController (MyWebApiApp).
+2026-10-07 12:42:54.691 +05:30 [INF] EF SQL:--info: 07-10-2026 12:42:54.690 RelationalEventId.CommandExecuted[20101] (Microsoft.EntityFrameworkCore.Database.Command) 
+      Executed DbCommand (8ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+      SELECT "m"."id", "m"."Subject", "m"."mark"
+      FROM "MarkDetails" AS "m"
+2026-10-07 12:42:54.777 +05:30 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[MyWebApiApp.Models.SubjectMark, MyWebApiApp, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2026-10-07 12:42:54.794 +05:30 [INF] Executed action MyWebApiApp.Controllers.SubjectMarkController.GetAll (MyWebApiApp) in 1076.8546ms
+2026-10-07 12:42:54.796 +05:30 [INF] Executed endpoint 'MyWebApiApp.Controllers.SubjectMarkController.GetAll (MyWebApiApp)'
+2026-10-07 12:42:54.805 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7148/api/subject - 200 null application/json; charset=utf-8 1142.132ms
+2026-10-07 12:42:58.819 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7148/api/subject - null null
+2026-10-07 12:42:58.824 +05:30 [INF] CORS policy execution successful.
+2026-10-07 12:42:58.825 +05:30 [INF] Executing endpoint 'MyWebApiApp.Controllers.SubjectMarkController.GetAll (MyWebApiApp)'
+2026-10-07 12:42:58.827 +05:30 [INF] Route matched with {action = "GetAll", controller = "SubjectMark"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetAll() on controller MyWebApiApp.Controllers.SubjectMarkController (MyWebApiApp).
+2026-10-07 12:42:58.878 +05:30 [INF] EF SQL:--info: 07-10-2026 12:42:58.877 RelationalEventId.CommandExecuted[20101] (Microsoft.EntityFrameworkCore.Database.Command) 
+      Executed DbCommand (0ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+      SELECT "m"."id", "m"."Subject", "m"."mark"
+      FROM "MarkDetails" AS "m"
+2026-10-07 12:42:58.880 +05:30 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[MyWebApiApp.Models.SubjectMark, MyWebApiApp, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2026-10-07 12:42:58.882 +05:30 [INF] Executed action MyWebApiApp.Controllers.SubjectMarkController.GetAll (MyWebApiApp) in 44.4631ms
+2026-10-07 12:42:58.883 +05:30 [INF] Executed endpoint 'MyWebApiApp.Controllers.SubjectMarkController.GetAll (MyWebApiApp)'
+2026-10-07 12:42:58.884 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7148/api/subject - 200 null application/json; charset=utf-8 65.3367ms
+2026-10-07 12:43:02.451 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7148/api/subject - null null
+2026-10-07 12:43:02.453 +05:30 [INF] CORS policy execution successful.
+2026-10-07 12:43:02.454 +05:30 [INF] Executing endpoint 'MyWebApiApp.Controllers.SubjectMarkController.GetAll (MyWebApiApp)'
+2026-10-07 12:43:02.455 +05:30 [INF] Route matched with {action = "GetAll", controller = "SubjectMark"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetAll() on controller MyWebApiApp.Controllers.SubjectMarkController (MyWebApiApp).
+2026-10-07 12:43:02.578 +05:30 [INF] EF SQL:--info: 07-10-2026 12:43:02.577 RelationalEventId.CommandExecuted[20101] (Microsoft.EntityFrameworkCore.Database.Command) 
+      Executed DbCommand (0ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+      SELECT "m"."id", "m"."Subject", "m"."mark"
+      FROM "MarkDetails" AS "m"
+2026-10-07 12:43:02.579 +05:30 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[MyWebApiApp.Models.SubjectMark, MyWebApiApp, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2026-10-07 12:43:02.581 +05:30 [INF] Executed action MyWebApiApp.Controllers.SubjectMarkController.GetAll (MyWebApiApp) in 121.2241ms
+2026-10-07 12:43:02.582 +05:30 [INF] Executed endpoint 'MyWebApiApp.Controllers.SubjectMarkController.GetAll (MyWebApiApp)'
+2026-10-07 12:43:02.583 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7148/api/subject - 200 null application/json; charset=utf-8 132.4839ms
+2026-10-07 13:56:19.696 +05:30 [INF] Now listening on: https://localhost:7148
+2026-10-07 13:56:19.729 +05:30 [INF] Now listening on: http://localhost:5104
+2026-10-07 13:56:19.769 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2026-10-07 13:56:19.770 +05:30 [INF] Hosting environment: Development
+2026-10-07 13:56:19.771 +05:30 [INF] Content root path: C:\Users\user\Desktop\session\CSharp\MyWebApiApp
+2026-10-07 13:56:20.104 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7148/api/subject - null null
+2026-10-07 13:56:20.158 +05:30 [INF] CORS policy execution successful.
+2026-10-07 13:56:20.165 +05:30 [INF] Executing endpoint 'MyWebApiApp.Controllers.SubjectMarkController.GetAll (MyWebApiApp)'
+2026-10-07 13:56:20.187 +05:30 [INF] Route matched with {action = "GetAll", controller = "SubjectMark"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetAll() on controller MyWebApiApp.Controllers.SubjectMarkController (MyWebApiApp).
+2026-10-07 13:56:20.998 +05:30 [INF] EF SQL:--info: 07-10-2026 13:56:20.996 RelationalEventId.CommandExecuted[20101] (Microsoft.EntityFrameworkCore.Database.Command) 
+      Executed DbCommand (15ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+      SELECT "m"."id", "m"."Subject", "m"."mark"
+      FROM "MarkDetails" AS "m"
+2026-10-07 13:56:21.125 +05:30 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[MyWebApiApp.Models.SubjectMark, MyWebApiApp, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2026-10-07 13:56:21.181 +05:30 [INF] Executed action MyWebApiApp.Controllers.SubjectMarkController.GetAll (MyWebApiApp) in 984.5756ms
+2026-10-07 13:56:21.191 +05:30 [INF] Executed endpoint 'MyWebApiApp.Controllers.SubjectMarkController.GetAll (MyWebApiApp)'
+2026-10-07 13:56:21.212 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7148/api/subject - 200 null application/json; charset=utf-8 1112.5975ms
+2026-10-07 13:56:30.981 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7148/scalar/ - null null
+2026-10-07 13:56:31.262 +05:30 [INF] Executing endpoint 'HTTP: GET /scalar/{documentName?}'
+2026-10-07 13:56:31.658 +05:30 [INF] Write content with HTTP Response ContentType of text/html
+2026-10-07 13:56:31.694 +05:30 [INF] Executed endpoint 'HTTP: GET /scalar/{documentName?}'
+2026-10-07 13:56:31.706 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7148/scalar/ - 200 null text/html 725.8626ms
+2026-10-07 13:56:31.717 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7148/scalar/scalar.js - null null
+2026-10-07 13:56:31.718 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7148/_vs/browserLink - null null
+2026-10-07 13:56:31.718 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7148/scalar/scalar.aspnetcore.js - null null
+2026-10-07 13:56:31.718 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7148/_framework/aspnetcore-browser-refresh.js - null null
+2026-10-07 13:56:31.728 +05:30 [INF] Executing endpoint 'HTTP: GET /scalar/scalar.js'
+2026-10-07 13:56:31.742 +05:30 [INF] CORS policy execution failed.
+2026-10-07 13:56:31.749 +05:30 [INF] Request origin https://localhost:7148 does not have permission to access the resource.
+2026-10-07 13:56:31.754 +05:30 [INF] Executing endpoint 'HTTP: GET /scalar/scalar.aspnetcore.js'
+2026-10-07 13:56:31.764 +05:30 [INF] Sending file with download name ''.
+2026-10-07 13:56:31.767 +05:30 [INF] Sending file with download name ''.
+2026-10-07 13:56:31.792 +05:30 [INF] Executed endpoint 'HTTP: GET /scalar/scalar.js'
+2026-10-07 13:56:31.792 +05:30 [INF] Executed endpoint 'HTTP: GET /scalar/scalar.aspnetcore.js'
+2026-10-07 13:56:31.797 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7148/scalar/scalar.js - 304 null null 80.0107ms
+2026-10-07 13:56:31.801 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7148/scalar/scalar.aspnetcore.js - 304 null null 83.6145ms
+2026-10-07 13:56:31.803 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7148/_framework/aspnetcore-browser-refresh.js - 200 14927 application/javascript; charset=utf-8 84.7556ms
+2026-10-07 13:56:31.864 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7148/_vs/browserLink - 200 null text/javascript; charset=UTF-8 146.1303ms
+2026-10-07 13:56:31.896 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7148/openapi/v1.json - null null
+2026-10-07 13:56:31.903 +05:30 [INF] Executing endpoint 'HTTP: GET /openapi/{documentName}.json'
+2026-10-07 13:56:31.924 +05:30 [INF] Executed endpoint 'HTTP: GET /openapi/{documentName}.json'
+2026-10-07 13:56:31.932 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7148/openapi/v1.json - 200 null application/json;charset=utf-8 36.5899ms
+2026-10-07 13:56:32.191 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7148/scalar/favicon.svg - null null
+2026-10-07 13:56:32.197 +05:30 [INF] Executing endpoint 'HTTP: GET /scalar/favicon.svg'
+2026-10-07 13:56:32.202 +05:30 [INF] Sending file with download name ''.
+2026-10-07 13:56:32.206 +05:30 [INF] Executed endpoint 'HTTP: GET /scalar/favicon.svg'
+2026-10-07 13:56:32.209 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7148/scalar/favicon.svg - 304 null null 18.2786ms
+2026-10-07 13:56:37.172 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7148/api/subject - null null
+2026-10-07 13:56:37.178 +05:30 [INF] CORS policy execution successful.
+2026-10-07 13:56:37.179 +05:30 [INF] Executing endpoint 'MyWebApiApp.Controllers.SubjectMarkController.GetAll (MyWebApiApp)'
+2026-10-07 13:56:37.181 +05:30 [INF] Route matched with {action = "GetAll", controller = "SubjectMark"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetAll() on controller MyWebApiApp.Controllers.SubjectMarkController (MyWebApiApp).
+2026-10-07 13:56:37.203 +05:30 [INF] EF SQL:--info: 07-10-2026 13:56:37.202 RelationalEventId.CommandExecuted[20101] (Microsoft.EntityFrameworkCore.Database.Command) 
+      Executed DbCommand (0ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+      SELECT "m"."id", "m"."Subject", "m"."mark"
+      FROM "MarkDetails" AS "m"
+2026-10-07 13:56:37.206 +05:30 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[MyWebApiApp.Models.SubjectMark, MyWebApiApp, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2026-10-07 13:56:37.210 +05:30 [INF] Executed action MyWebApiApp.Controllers.SubjectMarkController.GetAll (MyWebApiApp) in 26.5863ms
+2026-10-07 13:56:37.212 +05:30 [INF] Executed endpoint 'MyWebApiApp.Controllers.SubjectMarkController.GetAll (MyWebApiApp)'
+2026-10-07 13:56:37.214 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7148/api/subject - 200 null application/json; charset=utf-8 42.4565ms
+2026-10-07 13:56:40.335 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7148/api/subject - null null
+2026-10-07 13:56:40.348 +05:30 [INF] Executing endpoint 'MyWebApiApp.Controllers.SubjectMarkController.GetAll (MyWebApiApp)'
+2026-10-07 13:56:40.350 +05:30 [INF] Route matched with {action = "GetAll", controller = "SubjectMark"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetAll() on controller MyWebApiApp.Controllers.SubjectMarkController (MyWebApiApp).
+2026-10-07 13:56:40.583 +05:30 [INF] EF SQL:--info: 07-10-2026 13:56:40.583 RelationalEventId.CommandExecuted[20101] (Microsoft.EntityFrameworkCore.Database.Command) 
+      Executed DbCommand (0ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+      SELECT "m"."id", "m"."Subject", "m"."mark"
+      FROM "MarkDetails" AS "m"
+2026-10-07 13:56:40.637 +05:30 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[MyWebApiApp.Models.SubjectMark, MyWebApiApp, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2026-10-07 13:56:40.695 +05:30 [INF] Executed action MyWebApiApp.Controllers.SubjectMarkController.GetAll (MyWebApiApp) in 342.1239ms
+2026-10-07 13:56:40.790 +05:30 [INF] Executed endpoint 'MyWebApiApp.Controllers.SubjectMarkController.GetAll (MyWebApiApp)'
+2026-10-07 13:56:40.872 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7148/api/subject - 200 null application/json; charset=utf-8 536.6904ms
+2026-10-07 13:56:40.893 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7148/favicon.ico - null null
+2026-10-07 13:56:40.906 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7148/favicon.ico - 404 0 null 13.113ms
+2026-10-07 13:56:40.915 +05:30 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:7148/favicon.ico, Response status code: 404
+2026-10-07 13:56:46.762 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7148/api/subject - null null
+2026-10-07 13:56:46.771 +05:30 [INF] Executing endpoint 'MyWebApiApp.Controllers.SubjectMarkController.GetAll (MyWebApiApp)'
+2026-10-07 13:56:46.773 +05:30 [INF] Route matched with {action = "GetAll", controller = "SubjectMark"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetAll() on controller MyWebApiApp.Controllers.SubjectMarkController (MyWebApiApp).
+2026-10-07 13:56:46.779 +05:30 [INF] EF SQL:--info: 07-10-2026 13:56:46.779 RelationalEventId.CommandExecuted[20101] (Microsoft.EntityFrameworkCore.Database.Command) 
+      Executed DbCommand (0ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+      SELECT "m"."id", "m"."Subject", "m"."mark"
+      FROM "MarkDetails" AS "m"
+2026-10-07 13:56:46.781 +05:30 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[MyWebApiApp.Models.SubjectMark, MyWebApiApp, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2026-10-07 13:56:46.785 +05:30 [INF] Executed action MyWebApiApp.Controllers.SubjectMarkController.GetAll (MyWebApiApp) in 8.072ms
+2026-10-07 13:56:46.787 +05:30 [INF] Executed endpoint 'MyWebApiApp.Controllers.SubjectMarkController.GetAll (MyWebApiApp)'
+2026-10-07 13:56:46.788 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7148/api/subject - 200 null application/json; charset=utf-8 25.9587ms
+2026-10-07 15:02:09.493 +05:30 [INF] Now listening on: https://localhost:7148
+2026-10-07 15:02:09.561 +05:30 [INF] Now listening on: http://localhost:5104
+2026-10-07 15:02:09.644 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2026-10-07 15:02:09.646 +05:30 [INF] Hosting environment: Development
+2026-10-07 15:02:09.647 +05:30 [INF] Content root path: C:\Users\user\Desktop\session\CSharp\MyWebApiApp
+2026-10-07 15:02:26.422 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5104/scalar/ - null null
+2026-10-07 15:02:26.753 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5104/scalar/ - 307 null null 350.1904ms
+2026-10-07 15:02:26.900 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7148/scalar/ - null null
+2026-10-07 15:02:26.924 +05:30 [INF] Executing endpoint 'HTTP: GET /scalar/{documentName?}'
+2026-10-07 15:02:27.288 +05:30 [INF] Write content with HTTP Response ContentType of text/html
+2026-10-07 15:02:27.326 +05:30 [INF] Executed endpoint 'HTTP: GET /scalar/{documentName?}'
+2026-10-07 15:02:27.333 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7148/scalar/ - 200 null text/html 433.039ms
+2026-10-07 15:02:27.385 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7148/_vs/browserLink - null null
+2026-10-07 15:02:27.385 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7148/scalar/scalar.js - null null
+2026-10-07 15:02:27.385 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7148/scalar/scalar.aspnetcore.js - null null
+2026-10-07 15:02:27.385 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7148/_framework/aspnetcore-browser-refresh.js - null null
+2026-10-07 15:02:27.404 +05:30 [INF] Executing endpoint 'HTTP: GET /scalar/scalar.js'
+2026-10-07 15:02:27.422 +05:30 [INF] CORS policy execution failed.
+2026-10-07 15:02:27.435 +05:30 [INF] Request origin https://localhost:7148 does not have permission to access the resource.
+2026-10-07 15:02:27.452 +05:30 [INF] Executing endpoint 'HTTP: GET /scalar/scalar.aspnetcore.js'
+2026-10-07 15:02:27.456 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7148/_framework/aspnetcore-browser-refresh.js - 200 14927 application/javascript; charset=utf-8 71.1806ms
+2026-10-07 15:02:27.463 +05:30 [INF] Sending file with download name ''.
+2026-10-07 15:02:27.463 +05:30 [INF] Sending file with download name ''.
+2026-10-07 15:02:27.480 +05:30 [INF] Executed endpoint 'HTTP: GET /scalar/scalar.aspnetcore.js'
+2026-10-07 15:02:27.482 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7148/scalar/scalar.aspnetcore.js - 200 1111 text/javascript 97.0849ms
+2026-10-07 15:02:27.509 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7148/_vs/browserLink - 200 null text/javascript; charset=UTF-8 124.3292ms
+2026-10-07 15:02:27.511 +05:30 [INF] Executed endpoint 'HTTP: GET /scalar/scalar.js'
+2026-10-07 15:02:27.522 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7148/scalar/scalar.js - 200 1278284 text/javascript 136.9943ms
+2026-10-07 15:02:27.844 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7148/openapi/v1.json - null null
+2026-10-07 15:02:27.848 +05:30 [INF] Executing endpoint 'HTTP: GET /openapi/{documentName}.json'
+2026-10-07 15:02:27.873 +05:30 [INF] Executed endpoint 'HTTP: GET /openapi/{documentName}.json'
+2026-10-07 15:02:27.876 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7148/openapi/v1.json - 200 null application/json;charset=utf-8 32.3665ms
+2026-10-07 15:02:28.210 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7148/scalar/favicon.svg - null null
+2026-10-07 15:02:28.217 +05:30 [INF] Executing endpoint 'HTTP: GET /scalar/favicon.svg'
+2026-10-07 15:02:28.220 +05:30 [INF] Sending file with download name ''.
+2026-10-07 15:02:28.222 +05:30 [INF] Executed endpoint 'HTTP: GET /scalar/favicon.svg'
+2026-10-07 15:02:28.225 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7148/scalar/favicon.svg - 200 533 image/svg+xml 15.109ms
+2026-10-07 15:02:47.837 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7148/api/subject - null null
+2026-10-07 15:02:47.900 +05:30 [INF] CORS policy execution successful.
+2026-10-07 15:02:47.913 +05:30 [INF] Executing endpoint 'MyWebApiApp.Controllers.SubjectMarkController.GetAll (MyWebApiApp)'
+2026-10-07 15:02:48.011 +05:30 [INF] Route matched with {action = "GetAll", controller = "SubjectMark"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetAll() on controller MyWebApiApp.Controllers.SubjectMarkController (MyWebApiApp).
+2026-10-07 15:02:50.309 +05:30 [INF] EF SQL:--info: 07-10-2026 15:02:50.304 RelationalEventId.CommandExecuted[20101] (Microsoft.EntityFrameworkCore.Database.Command) 
+      Executed DbCommand (24ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+      SELECT "m"."id", "m"."Subject", "m"."mark"
+      FROM "MarkDetails" AS "m"
+2026-10-07 15:02:50.502 +05:30 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[MyWebApiApp.Models.SubjectMark, MyWebApiApp, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2026-10-07 15:02:50.527 +05:30 [INF] Executed action MyWebApiApp.Controllers.SubjectMarkController.GetAll (MyWebApiApp) in 2503.9984ms
+2026-10-07 15:02:50.531 +05:30 [INF] Executed endpoint 'MyWebApiApp.Controllers.SubjectMarkController.GetAll (MyWebApiApp)'
+2026-10-07 15:02:50.543 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7148/api/subject - 200 null application/json; charset=utf-8 2707.5366ms
+2026-10-07 15:03:01.904 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7148/api/subject - null null
+2026-10-07 15:03:01.907 +05:30 [INF] CORS policy execution successful.
+2026-10-07 15:03:01.909 +05:30 [INF] Executing endpoint 'MyWebApiApp.Controllers.SubjectMarkController.GetAll (MyWebApiApp)'
+2026-10-07 15:03:01.910 +05:30 [INF] Route matched with {action = "GetAll", controller = "SubjectMark"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetAll() on controller MyWebApiApp.Controllers.SubjectMarkController (MyWebApiApp).
+2026-10-07 15:03:01.972 +05:30 [INF] EF SQL:--info: 07-10-2026 15:03:01.972 RelationalEventId.CommandExecuted[20101] (Microsoft.EntityFrameworkCore.Database.Command) 
+      Executed DbCommand (1ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+      SELECT "m"."id", "m"."Subject", "m"."mark"
+      FROM "MarkDetails" AS "m"
+2026-10-07 15:03:01.976 +05:30 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[MyWebApiApp.Models.SubjectMark, MyWebApiApp, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2026-10-07 15:03:01.979 +05:30 [INF] Executed action MyWebApiApp.Controllers.SubjectMarkController.GetAll (MyWebApiApp) in 65.7228ms
+2026-10-07 15:03:01.981 +05:30 [INF] Executed endpoint 'MyWebApiApp.Controllers.SubjectMarkController.GetAll (MyWebApiApp)'
+2026-10-07 15:03:01.984 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7148/api/subject - 200 null application/json; charset=utf-8 79.5729ms
